@@ -79,3 +79,75 @@ header {
 .hero-text {
     padding: 5px 0px;
 }
+
+.facts-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.facts {
+    display: flex;
+    margin: 40px 0px;
+    gap: 50px;
+}
+
+.fact {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fact-img {
+    border: #3882f6 solid 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.fact-text {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.section-three {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 50px 0px; */
+}
+
+.blockquote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 770px;
+}
+
+.blockquote {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px;
+}
+
+.blockquote-author {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 24px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
