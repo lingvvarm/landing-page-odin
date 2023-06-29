@@ -132,13 +132,13 @@ header {
     color: #1f2937;
     font-weight: 300;
     font-style: italic;
-    width: 770px;
 }
 
 .blockquote {
     display: flex;
     flex-direction: column;
     padding: 90px 0px;
+    width: 800px;
 }
 
 .blockquote-author {
@@ -150,4 +150,55 @@ header {
 p {
     margin: 0;
     padding: 0;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+.action-container {
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    align-items: center;
+}
+
+.action-header {
+    color: #f9faf8;
+}
+
+.action-header {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.action-subtext {
+    color: #e5e7eb;
+}
+
+.action-btn {
+    background: none;
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+    border: #f9faf8 solid 2px;
+    padding: 7px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 40px 0px;
 }
